@@ -39,19 +39,18 @@ body {
     width: 350px;
 }
 
-button {     
-    background-color: Transparent;
-    background-repeat:no-repeat;
-    border: none;
+.btn {     
+    /* background-color: Transparent; */
+    /* border: none; */
     cursor:pointer;
-    overflow: hidden;
-    padding: 20px;        
+    box-sizing: border-box;
+    /* padding: 10px; */
+    /* overflow: hidden;  */
+    /* padding: 10px;       */
 }
 
-button :hover{
-    background-color: palevioletred ;
-    padding: 10px;
-
+.btn :hover{
+    background-color: palevioletred;
 }
 
 #btns{
@@ -61,5 +60,4 @@ button :hover{
 
 #icons-btn :hover{
     background-color: palevioletred;
-    border-radius: 100px;
 }
