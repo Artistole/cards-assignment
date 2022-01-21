@@ -62,7 +62,7 @@ body {
     padding-right: 10px;
 }
 
-#main:hover{
+#main:hover, #main-hr:hover{
     opacity: 0.8;
     cursor: pointer;
 }
