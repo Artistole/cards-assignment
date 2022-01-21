@@ -1,17 +1,70 @@
-var vari = document.querySelector("#vari");
+var option = document.querySelector("#vari");
+var btn = document.querySelector("#icons-btn-heart")
 
-vari.addEventListener("click", variant)
+option.addEventListener("click", variant)
+btn.addEventListener("click", heart)
 
 function variant()
 {
-    var value = parseInt(vari.innerText)
-
+    var value = option.value
     if(value=="basic")
     {
-        console.log("red")
+        document.getElementsByTagName('section')[0].style.display = 'block';
+        document.getElementsByTagName('section')[1].style.display = 'none';
+        document.getElementsByTagName('section')[2].style.display = 'none';
+        document.getElementsByTagName('section')[3].style.display = 'none';
+        document.getElementsByTagName('section')[4].style.display = 'none';
+        document.getElementsByTagName('section')[5].style.display = 'none';
     }
     else if(value=="basictext")
     {
-        console.log("blue")
+        document.getElementsByTagName('section')[0].style.display = 'none';
+        document.getElementsByTagName('section')[1].style.display = 'block';
+        document.getElementsByTagName('section')[2].style.display = 'none';
+        document.getElementsByTagName('section')[3].style.display = 'none';
+        document.getElementsByTagName('section')[4].style.display = 'none';
+        document.getElementsByTagName('section')[5].style.display = 'none';
+    }
+    else if(value=="basicheader")
+    {
+        document.getElementsByTagName('section')[0].style.display = 'none';
+        document.getElementsByTagName('section')[1].style.display = 'none';
+        document.getElementsByTagName('section')[2].style.display = 'block';
+        document.getElementsByTagName('section')[3].style.display = 'none';
+        document.getElementsByTagName('section')[4].style.display = 'none';
+        document.getElementsByTagName('section')[5].style.display = 'none';
+    }
+    else if(value=="basicbuttons")
+    {
+        document.getElementsByTagName('section')[0].style.display = 'none';
+        document.getElementsByTagName('section')[1].style.display = 'none';
+        document.getElementsByTagName('section')[2].style.display = 'none';
+        document.getElementsByTagName('section')[3].style.display = 'block';
+        document.getElementsByTagName('section')[4].style.display = 'none';
+        document.getElementsByTagName('section')[5].style.display = 'none';
+    }
+    else if(value=="basicicons")
+    {
+        document.getElementsByTagName('section')[0].style.display = 'none';
+        document.getElementsByTagName('section')[1].style.display = 'none';
+        document.getElementsByTagName('section')[2].style.display = 'none';
+        document.getElementsByTagName('section')[3].style.display = 'none';
+        document.getElementsByTagName('section')[4].style.display = 'block';
+        document.getElementsByTagName('section')[5].style.display = 'none';
+    }
+    else if(value=="horizontal")
+    {
+        document.getElementsByTagName('section')[0].style.display = 'none';
+        document.getElementsByTagName('section')[1].style.display = 'none';
+        document.getElementsByTagName('section')[2].style.display = 'none';
+        document.getElementsByTagName('section')[3].style.display = 'none';
+        document.getElementsByTagName('section')[4].style.display = 'none';
+        document.getElementsByTagName('section')[5].style.display = 'block';
     }
 }
+
+// function heart()
+// {
+//     document.getElementById("icons-btn-heart").className="fas fa-heart";
+// }
+
