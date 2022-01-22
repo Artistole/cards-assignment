@@ -6,3 +6,4 @@
 <h3>Chips</h3>
 
 
+- used repeated HTML. Can also achieve the same thing by using HTML only once and just by changing the css using the css order property but changing the variant using JS would be harder.
