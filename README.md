@@ -5,3 +5,4 @@
      - used repeated HTML. Can also achieve the same thing by using HTML only once and just by changing the css using the css order property but changing the variant using JS would be harder.
 <h3>Chips</h3>
 
+- The workspace synchronization will sync all your files, folders and settings automatically. This will allow you to fetch your workspace on any other device.
