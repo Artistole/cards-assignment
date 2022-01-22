@@ -1,1 +1,1 @@
-<h3 style="align=center;">Cards Assignment </h3>
+<h3 style="text-align: center;">Cards Assignment </h3>
