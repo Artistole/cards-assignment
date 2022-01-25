@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -11,10 +10,10 @@
 </head>
 
 <body>
-    <section id="chips-auto">
+    <span id="chips-auto">
         <div class="section-header">
             <div class="section-name">
-                <h4>Chips Autocomplete</h4>
+                <h4>Chips with input</h4>
             </div>
             <div class="section-icons">
                 <button></button>
@@ -23,12 +22,11 @@
             </div>
         </div>
         <div class="input-txt">
-            <input type="text" placeholder="Favourite Anime" id="auto-input"></input>
+            <span id="output"> </span>
+            <!-- removed span for input  -->
+            <input type="text" placeholder="Favourite Anime" id="auto-input"></input>        
         </div>
-    </section>
-    <span id="chips-cont">
-        <button id="cross-btn"><i class="fas fa-times-circle"></i></button>
-    </span>
+    </span> 
+    <script src="app.js"></script>
 </body>
-
 </html>
