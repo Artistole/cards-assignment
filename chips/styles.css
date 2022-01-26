@@ -12,10 +12,19 @@ header {
     margin-bottom: 10px;
 }
 
-#icon-btn {
+#icon-btn-share, #icon-btn-view, #icon-btn-live {
     background-color: transparent;
     border: none;
     cursor: pointer;
+}
+
+.hovershare, .hoverview, .hoverlive{
+    display: none;
+}
+
+#icon-btn-share:hover::after {
+    padding-top: 100px;
+    content: "copy link to example";
 }
 
 .chips-cont,
@@ -157,3 +166,6 @@ header {
 
     margin-bottom: 10px;
 }
+
+
+
