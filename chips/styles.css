@@ -2,7 +2,7 @@
 
 body {
     font-family: 'Roboto', sans-serif;
-    background-color: rgb(187, 187,187);
+    background-color: rgb(187, 187, 187);
     /* background-color: rgb(112, 128,144); */
 }
 
@@ -12,13 +12,15 @@ header {
     margin-bottom: 10px;
 }
 
-#icon-btn{
+#icon-btn {
     background-color: transparent;
     border: none;
     cursor: pointer;
 }
 
-.chips-cont, .drag-chip, .stacked-chips{
+.chips-cont,
+.drag-chip,
+.stacked-chips {
     display: inline-block;
     border: 1px solid black;
     border-radius: 10px;
@@ -30,37 +32,37 @@ header {
     background-color: azure;
 }
 
-.stacked-chips{
+.stacked-chips {
     display: block;
     width: 150px;
     color: white;
 }
 
-.drag-chip:nth-child(3){
+.drag-chip:nth-child(3) {
     background-color: rgb(252, 224, 172);
 }
 
-.drag-chip:nth-child(4){
+.drag-chip:nth-child(4) {
     background-color: rgb(206, 90, 105);
 }
 
-.drag-chip:nth-child(5){
+.drag-chip:nth-child(5) {
     background-color: rgb(153, 72, 88);
 }
 
-.stacked-chips:nth-child(1){
+.stacked-chips:nth-child(1) {
     background-color: rgb(236, 158, 14);
 }
 
-.stacked-chips:nth-child(2){
+.stacked-chips:nth-child(2) {
     background-color: rgb(206, 90, 105);
 }
 
-.stacked-chips:nth-child(3){
+.stacked-chips:nth-child(3) {
     background-color: rgb(153, 72, 88);
 }
 
-.stacked-chips:nth-child(4){
+.stacked-chips:nth-child(4) {
     background-color: rgb(122, 38, 55);
 }
 
@@ -99,7 +101,7 @@ header {
     margin-right: 20px;
 }
 
-#auto-input{
+#auto-input {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -116,13 +118,15 @@ header {
     border: 0px;
     /* used outline none to make the input field border invisible while in focus */
     outline: none;
-    background-color: rgb(187, 187,187);
+    background-color: rgb(187, 187, 187);
 }
 
-::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+::placeholder {
+    /* Chrome, Firefox, Opera, Safari 10.1+ */
     color: black;
-    opacity: 1; /* Firefox */
-  }
+    opacity: 1;
+    /* Firefox */
+}
 
 
 .input-txt {
@@ -137,17 +141,19 @@ header {
 
 }
 
-#output, #output-form {
+#output,
+#output-form {
     display: inline-block;
 }
 
-#disable-btn, #enable-btn{
-  padding: 6px;
-  margin-left: 10px;
-  margin-bottom: 10px;
+#disable-btn,
+#enable-btn {
+    padding: 6px;
+    margin-left: 10px;
+    margin-bottom: 10px;
 }
 
-#para{
-    
+#para {
+
     margin-bottom: 10px;
 }

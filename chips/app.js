@@ -25,11 +25,11 @@ function newchip(e) {
         //childnode basically gets the child nodes of the main node, main node here is the chips cont and 2nd child node is the button(index 1)
         //event listener listens for the button click and removes it.
         chipContItem.childNodes[1].addEventListener("click", () => chipContItem.remove());
-          
+
         //this works but we just cant simply do the same thing we did previously 
         // chipContItem.addEventListener("click", () => console.log('hello'))
     });
-    
+
 }
 
 const disableBtn = document.querySelector('#disable-btn');
@@ -38,13 +38,11 @@ const enableBtn = document.querySelector('#enable-btn');
 disableBtn.addEventListener('click', disabled);
 enableBtn.addEventListener('click', enabled);
 
-function disabled()
-{
+function disabled() {
     document.querySelector('#auto-input').disabled = true;
 }
 
-function enabled()
-{
+function enabled() {
     document.querySelector('#auto-input').disabled = false;
 }
 
@@ -63,6 +61,3 @@ function enabled()
 // drag.forEach((dragged) =>{
 //    dragged.childNodes[0].addEventListener('drag', () => console.log('hello'));
 // })
-
-
-
