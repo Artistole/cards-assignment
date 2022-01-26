@@ -18,15 +18,6 @@ header {
     cursor: pointer;
 }
 
-.hovershare, .hoverview, .hoverlive{
-    display: none;
-}
-
-#icon-btn-share:hover::after {
-    padding-top: 100px;
-    content: "copy link to example";
-}
-
 .chips-cont,
 .drag-chip,
 .stacked-chips {
