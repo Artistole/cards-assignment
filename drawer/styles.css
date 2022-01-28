@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&family=Roboto:wght@300&display=swap');
+:root{
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* heading */
+.heading{
+    background-color: #0284c7;
+    padding: 10px 0px 10px 20px;
+    margin: 0px;
+    color: cornsilk;
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.heading-dismissible{
+    background-color: #0284c7;
+    padding: 10px 0px 10px 20px;
+    margin: 0px;
+    color: cornsilk;
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.heading-modal{
+    background-color: #0284c7;
+    padding: 10px 0px 10px 20px;
+    margin: 0px;
+    color: cornsilk;
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+#hamburger, #hamburger-modal{
+    cursor: pointer;
+}
+
+/* demos container */
+#permanent, #dismissible, #modal
+{
+    max-width: 900px;
+    max-height: 400px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    border: 1px solid black;
+    margin-bottom: 100px;
+    margin: auto;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+/* right side section */
+#perm-drawer
+{
+    overflow: auto;
+}
+
+#perm-drawer-modal
+{
+    overflow: auto;
+    /* position: absolute;
+    overflow: scroll;
+    height: 400px;
+    padding-left: 9px; */
+}
+
+/* right side text */
+.paragraphs{
+    padding:10px; 
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+
+/* mail heading */
+#mail{
+ font-size: large; 
+ font-weight: 700;
+ margin-top: 10px;
+ margin-left: 12px;  
+}
+
+/* mail id */
+#small-mail{
+    font-size: 16px;
+    font-weight: 100;
+    opacity: 0.8;
+}
+
+/* sidebar nav */
+#perm-sidebar{
+    width: 3000px;
+    display: flex;
+    flex-direction: column;
+    padding-left: 15px;
+}
+
+#perm-sidebar-dismissible{
+    width: 3000px;  
+    display: none;
+    flex-direction: column;
+    padding-left: 15px;
+    transition: 1s;
+}
+
+#perm-sidebar-modal{
+    width: 3000px;  
+    display: flex;
+    display: none;
+    flex-direction: column;
+    padding-left: 15px;
+}
+
+/* icons in sidebar */
+#icons{
+    overflow-y: scroll;
+}
+
+/* the first four icons */
+/* #email-four{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+} */
+
+/* label section in sidebar */
+/* #labels{
+    display: flex;
+    flex-direction: column;
+    
+} */
+
+/* setting section in sidebar */
+/* #settings{
+    display: flex;
+    flex-direction: column ;
+} */
+
+
+/* .material-icons:active{
+    background-color: blue;
+} */
+
+/* icon styling */
+.material-icons{
+    padding-right: 30px;
+}
+
+/* button styling */
+.btn{
+    margin: 12px;
+    display: flex;
+    padding: 7px;
+    font-weight: 700;
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.btn-active{
+    margin: 12px;
+    display: flex;
+    padding: 7px;
+    font-weight: 700;
+    opacity: 0.8;
+    background-color: #0ea5e9;
+}
+
+.btn:hover , .btn-active:hover{
+    background-color: #7dd3fc;
+    
+}
+
+#label-header{
+    padding-left: 17px;
+}
+
+.line{
+    margin-right: 15px;
+    margin-left: 10px;
+}
